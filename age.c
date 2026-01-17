@@ -1,9 +1,11 @@
-#include <stdio.h>
+# include <stdio.h>
 
-int main() {
+int main (){
+
     int age;
-    printf("Enter age: ");
-    scanf("%d", &age); // Make sure to pass &age
-    printf("Age is: %d\n", age);
+    printf("enter the age : ");
+    scanf("%d",&age);
+    printf("age is %d", age);
     return 0;
+
 }
